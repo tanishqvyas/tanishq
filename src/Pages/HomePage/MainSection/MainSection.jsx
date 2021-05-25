@@ -26,7 +26,7 @@ const MainSection = () => {
         params={{
           particles: {
             number: {
-              value: 69,
+              value: 100,
             },
             size: {
               value: 3,

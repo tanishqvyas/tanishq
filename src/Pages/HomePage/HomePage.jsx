@@ -1,7 +1,8 @@
-import React, { Suspense } from "react";
+import React, { Suspense, lazy } from "react";
 import styles from "./HomePage.module.css";
 
-const MainSection = React.lazy(() => import("./MainSection/MainSection"));
+const MainSection = lazy(() => import("./MainSection/MainSection"));
+const AboutSection = lazy(() => import("./AboutSection/AboutSection"));
 
 const HomePage = () => {
   return (
@@ -9,7 +10,9 @@ const HomePage = () => {
       <Suspense fallback={<div>Loading...</div>}>
         <MainSection />
       </Suspense>
-      
+      <Suspense fallback={<div>Loading...</div>}>
+        <AboutSection />
+      </Suspense>
     </main>
   );
 };

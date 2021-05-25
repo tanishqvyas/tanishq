@@ -1,0 +1,21 @@
+.link {
+  color: var(--primary-green);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.link:hover {
+    color: var(--primary-blue);
+}
+
+/* .link:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px var(--primary-blue);
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.link:hover:after {
+  transform: scaleX(0.1);
+} */

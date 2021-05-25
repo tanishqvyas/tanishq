@@ -8,6 +8,7 @@
   justify-content: space-between;
   align-items: center;
   height: var(--navbar-height);
+  z-index: 100;
 }
 
 #name_container {

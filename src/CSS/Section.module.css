@@ -1,0 +1,29 @@
+.heading {
+  font-size: 36px;
+  text-transform: capitalize;
+}
+
+.heading::selection {
+  background-color: var(--primary-blue);
+  color: var(--primary-white);
+}
+.para {
+  font-size: 22px;
+  margin: 10px 0px;
+  padding: 0;
+  word-spacing: 5px;
+  /* text-align: justify; */
+}
+
+.heading_light {
+  color: var(--primary-white);
+}
+
+.para_light {
+  color: var(--primary-grey);
+}
+
+.para_light::selection {
+  background-color: var(--primary-blue);
+  color: var(--primary-white);
+}
