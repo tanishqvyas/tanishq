@@ -9,6 +9,18 @@
   align-items: center;
   height: var(--navbar-height);
   z-index: 100;
+  background: linear-gradient(
+    to bottom,
+    var(--primary-dark-bg),
+    #03182af8,
+    #03182af8,
+    #03182af8,
+    #03182aec,
+    #03182ae1,
+    #03182ad2,
+    #03182ac2,
+    #03182ab2
+  );
 }
 
 #name_container {
