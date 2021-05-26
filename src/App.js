@@ -11,6 +11,7 @@ import {
 
 import Navbar from "./Components/Navbar/Navbar";
 const HomePage = lazy(() => import("./Pages/HomePage/HomePage"));
+const BlogsPage = lazy(() => import("./Pages/BlogsPage/BlogsPage"));
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={HomePage} />
             <Route exact path="/home" component={HomePage} />
+            <Route exact path="/blog" component={BlogsPage} />
             {/* <Route exact path="/*" component={NotFoundPage} /> */}
           </Switch>
         </Suspense>

@@ -21,7 +21,6 @@ const HomePage = () => {
       <Suspense fallback={<div>Loading...</div>}>
         <Footer />
       </Suspense>
-
     </main>
   );
 };
