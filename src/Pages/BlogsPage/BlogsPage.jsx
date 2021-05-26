@@ -1,6 +1,9 @@
-import React, { Suspense, lazy, useState } from "react";
+import React, { Suspense, lazy, useState, useEffect } from "react";
 import styles from "./BlogsPage.module.css";
 import globalSectionStyles from "../../CSS/Section.module.css";
+
+import axios from "axios";
+import { mediumAPI } from "../../Config/Config";
 
 const Loader = lazy(() => import("../../Components/Loader/Loader"));
 const BlogCard = lazy(() => import("../../Components/BlogCard/BlogCard"));
@@ -8,6 +11,22 @@ const Footer = lazy(() => import("../../Components/Footer/Footer"));
 
 const BlogsPage = () => {
   let [blogList, setBlogList] = useState(null);
+
+  useEffect(() => {
+    axios
+      .get(mediumAPI)
+      .then((res) => {        // handle success
+        if (res.data.status === "ok") {
+          setBlogList(res.data.items);
+        } else {
+          alert("Internal Server Error!");
+        }
+      })
+      .catch((error) => {
+        // handle error
+        console.log(error);
+      });
+  }, []);
 
   return (
     <main className={styles.container}>
@@ -31,7 +50,7 @@ const BlogsPage = () => {
       ) : (
         <section className={styles.blog_card_container}>
           {blogList.map((item, index) => (
-            <BlogCard key={index} {...item} />
+            <BlogCard key={index} title={item.title} pubDate={item.pubDate} link={item.link} thumbnail={item.thumbnail} />
           ))}
         </section>
       )}
