@@ -38,6 +38,7 @@
   flex-direction: row;
   justify-content: space-between;
   width: 690px;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav_ele {
@@ -46,9 +47,84 @@
   font-weight: 500;
   transition: all 0.2s ease-in-out;
   user-select: none;
+  margin: auto 0;
 }
 
 .nav_ele:hover {
   color: var(--primary-white);
   transform: scale(1.1);
+}
+
+
+/* HANDLING SIDE STUFF */
+.close_btn_ctnr {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 24px;
+  cursor: pointer;
+}
+
+.close_btn {
+  font-size:32px;
+  display: none;  
+}
+
+.menu_btn {
+  font-size: 28px;
+  display: none;
+  color: var(--primary-white);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  
+  .container{
+    padding: 18px 10px;
+  }
+
+  #name_container {
+    font-size: 23px;
+  }
+
+  #nav_container {
+    position: fixed;
+    height: 100vh;
+    width: min(100vw, 400px);
+    top: 0;
+    right: -200vw;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--primary-dark-bg);
+    border-left: 5px solid var(--primary-grey);
+  }
+
+  .nav_ele {
+    margin: 0px;
+    padding: 23px 0px;
+    transform: none !important;
+  }
+
+  .nav_ele:hover {
+    background-color: var(--primary-blue);
+  }
+
+
+  .close_btn {
+    display: block;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .close_btn:hover {
+    transform: scale(1.2);
+    color: var(--primary-white);
+  }
+
+  .menu_btn {
+    display: block;
+  }
 }

@@ -6,6 +6,16 @@ import { getGreeting, getCurrentAge } from "../../../Helpers/datetimeHelpers";
 import { IoIosArrowDown } from "react-icons/io";
 
 const MainSection = () => {
+
+  const getParticleCount = () => {
+    if(window.innerWidth >= 800) {
+      return 100;
+    } else {
+      return 42;
+    }
+  }
+  
+
   return (
     <section className={styles.container}>
       <article className={styles.article}>
@@ -26,7 +36,7 @@ const MainSection = () => {
         params={{
           particles: {
             number: {
-              value: 100,
+              value: getParticleCount(),
             },
             size: {
               value: 3,

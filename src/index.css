@@ -6,6 +6,7 @@
   --primary-purple: #4b6cc1;
   --primary-grey: #bbbdbb;
   --primary-white: #fafafa;
+  --primary-black: #181616;
   --primary-green: rgb(86, 180, 86);
 
 
@@ -13,6 +14,7 @@
 
   /* Distance Variables */
   --navbar-height: 42px;
+  --primary-mobile-gutter: 32px;
 
 }
 

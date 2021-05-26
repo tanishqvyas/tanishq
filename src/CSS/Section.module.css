@@ -27,3 +27,13 @@
   background-color: var(--primary-blue);
   color: var(--primary-white);
 }
+
+@media only screen and (max-width: 1023px) {
+  .heading {
+    font-size: 24px;
+  }
+
+  .para {
+    font-size: 18px;
+  }
+}

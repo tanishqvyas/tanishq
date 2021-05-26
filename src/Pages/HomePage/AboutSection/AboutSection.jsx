@@ -48,7 +48,15 @@ const AboutSection = () => {
       >
         Out of all, games, were the one which interested me the most. That was
         one of the main reasons I started to learn programming. The moment I
-        built my first game, I was thrilled. Since then there has been no
+        built my <a
+          className={globalLinkStyles.link}
+          href="https://tanishqvyas069.itch.io/slime-volley-copied"
+          rel="nofollow noreferrer noopener"
+          target="_blank"
+        >
+          first game
+        </a>
+        , I was thrilled. Since then, there has been no
         stopping. I have continuously explored various technologies out there
         and how are they used to build different things.
       </p>
