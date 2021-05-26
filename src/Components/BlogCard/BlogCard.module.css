@@ -40,8 +40,8 @@
 }
 
 .authorName {
-    transition: all 0.3s ease-in-out;
-    color: var(--primary-green);
+  transition: all 0.3s ease-in-out;
+  color: var(--primary-green);
 }
 
 .authorName:hover {
@@ -59,9 +59,9 @@
   transform: scaleX(1);
 }
 
-.read_icon{
-    position: relative;
-    top: 2px;
+.read_icon {
+  position: relative;
+  top: 2px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -71,8 +71,8 @@
   }
 
   .info_wrapper {
-    height: 100px;
     font-size: 14px;
+    height: 140px;
   }
 
   .title {

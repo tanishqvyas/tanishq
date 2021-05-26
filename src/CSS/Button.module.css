@@ -24,6 +24,11 @@
     color: var(--primary-white);
 }
 
+.basic_button_light_filled {
+    border: 2px solid var(--primary-white);
+    background-color: var(--primary-white);
+    color: var(--primary-dark-bg);
+}
 
 @media only screen and (max-width: 1023px) {
 
