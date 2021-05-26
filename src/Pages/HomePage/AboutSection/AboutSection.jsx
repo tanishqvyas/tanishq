@@ -27,7 +27,7 @@ const AboutSection = () => {
         <a
           className={globalLinkStyles.link}
           href="https://pes.edu/"
-          rel="nofollow noreferrer noopener"
+          rel="noreferrer noopener"
           target="_blank"
         >
           PES University
@@ -37,7 +37,7 @@ const AboutSection = () => {
         <a
           className={globalLinkStyles.link}
           href="http://www.wal-martindia.in/media-library/photos/walmart-labs-bangalore"
-          rel="nofollow noreferrer noopener"
+          rel="noreferrer noopener"
           target="_blank"
         >
           Walmart Labs
@@ -51,7 +51,7 @@ const AboutSection = () => {
         built my <a
           className={globalLinkStyles.link}
           href="https://tanishqvyas069.itch.io/slime-volley-copied"
-          rel="nofollow noreferrer noopener"
+          rel="noreferrer noopener"
           target="_blank"
         >
           first game
