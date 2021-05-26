@@ -15,7 +15,8 @@ const BlogsPage = () => {
   useEffect(() => {
     axios
       .get(mediumAPI)
-      .then((res) => {        // handle success
+      .then((res) => {
+        // handle success
         if (res.data.status === "ok") {
           setBlogList(res.data.items);
         } else {
@@ -37,11 +38,13 @@ const BlogsPage = () => {
           Blog
         </h1>
         <p
-          className={`${globalSectionStyles.para} ${globalSectionStyles.para_light}`}
+          className={`${styles.intro_para} ${globalSectionStyles.para} ${globalSectionStyles.para_light}`}
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit animi
-          similique architecto eos officiis suscipit nisi aliquam, officia modi
-          doloremque!
+          One thing that I absolutely enjoy doing, apart from programming, is
+          sharing my knowledge with others. It feels great to learn something
+          and pass on the learning to others who are in need. This lead me to
+          start writing articles, documenting my learning. Below are the
+          articles that I have written over last few years.
         </p>
       </section>
 
@@ -50,7 +53,13 @@ const BlogsPage = () => {
       ) : (
         <section className={styles.blog_card_container}>
           {blogList.map((item, index) => (
-            <BlogCard key={index} title={item.title} pubDate={item.pubDate} link={item.link} thumbnail={item.thumbnail} />
+            <BlogCard
+              key={index}
+              title={item.title}
+              pubDate={item.pubDate}
+              link={item.link}
+              thumbnail={item.thumbnail}
+            />
           ))}
         </section>
       )}

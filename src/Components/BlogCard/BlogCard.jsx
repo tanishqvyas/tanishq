@@ -36,12 +36,7 @@ const blogStatsAPI =
 
 const BlogCard = ({ title, pubDate, link, thumbnail }) => {
   return (
-    <a
-      href={link}
-      target="_blank"
-      rel="external"
-      className={`${styles.container} ${"no-underline"}`}
-    >
+    <div className={`${styles.container} ${"no-underline"}`}>
       <div className={styles.thumbnail_wrapper}>
         <ImageContainer animated src={thumbnail} />
       </div>
@@ -49,13 +44,18 @@ const BlogCard = ({ title, pubDate, link, thumbnail }) => {
         <h2 className={styles.title}>{title}</h2>
         <div className={styles.card_footer}>
           <div>{formatDate(pubDate)}</div>
-          <div className={styles.authorName}>
+          <a
+            href={link}
+            target="_blank"
+            rel="external"
+            className={`${styles.authorName} ${"no-underline"}`}
+          >
             {" "}
             <BsBoxArrowUpRight className={styles.read_icon} /> Read
-          </div>
+          </a>
         </div>
       </div>
-    </a>
+    </div>
   );
 };
 
