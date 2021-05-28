@@ -4,7 +4,10 @@ import styled from "styled-components";
 
 import MY_IMAGE from "../../Assets/Images/me.jpg";
 
+import Loader from "../../Components/Loader/Loader";
+
 const IntroSection = lazy(() => import("./IntroSection/IntroSection"));
+
 
 const ImageContainer = styled.div`
   background-image: ${(props) => `url(${props.src})`};
@@ -30,7 +33,7 @@ const AboutPage = () => {
         </div>
       </section>
       <div className={styles.main_info_wrapper}>
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={Loader}>
           <IntroSection />
         </Suspense>
       </div>

@@ -63,7 +63,7 @@ const BlogsPage = () => {
           ))}
         </section>
       )}
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={Loader}>
         <Footer />
       </Suspense>
     </main>

@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 
 import Navbar from "./Components/Navbar/Navbar";
+import Loader from "./Components/Loader/Loader";
 const HomePage = lazy(() => import("./Pages/HomePage/HomePage"));
 const AboutPage = lazy(() => import("./Pages/AboutPage/AboutPage"));
 const BlogsPage = lazy(() => import("./Pages/BlogsPage/BlogsPage"));
@@ -20,7 +21,7 @@ function App() {
     <div className="App">
       <Router basename={process.env.PUBLIC_URL}>
         <Navbar />
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={Loader}>
           <Switch>
             <Route exact path="/" component={HomePage} />
             <Route exact path="/about" component={AboutPage} />
