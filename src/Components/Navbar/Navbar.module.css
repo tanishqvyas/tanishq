@@ -36,8 +36,7 @@
 #nav_container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 690px;
+  justify-content: flex-end;
   transition: all 0.3s ease-in-out;
 }
 
@@ -48,6 +47,7 @@
   transition: all 0.2s ease-in-out;
   user-select: none;
   margin: auto 0;
+  margin-left: 42px;
 }
 
 .nav_ele:hover {

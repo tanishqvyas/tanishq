@@ -11,6 +11,7 @@ import {
 
 import Navbar from "./Components/Navbar/Navbar";
 const HomePage = lazy(() => import("./Pages/HomePage/HomePage"));
+const AboutPage = lazy(() => import("./Pages/AboutPage/AboutPage"));
 const BlogsPage = lazy(() => import("./Pages/BlogsPage/BlogsPage"));
 const NotFoundPage = lazy(() => import("./Pages/NotFoundPage/NotFoundPage"));
 
@@ -22,8 +23,9 @@ function App() {
         <Suspense fallback={<div>Loading...</div>}>
           <Switch>
             <Route exact path="/" component={HomePage} />
-            <Route exact path="/home" component={HomePage} />
+            <Route exact path="/about" component={AboutPage} />
             <Route exact path="/blog" component={BlogsPage} />
+            <Route exact path="/home" component={HomePage} />
             <Route exact path="/*" component={NotFoundPage} />
           </Switch>
         </Suspense>

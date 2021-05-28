@@ -41,5 +41,5 @@ export const getCurrentAge = (
 export const formatDate = (datetimeString) => {
   let today = new Date(datetimeString);
 
-  return monthNames[today.getMonth()] + " " + today.getDay()+1 + ", " + today.getFullYear();
+  return monthNames[today.getMonth()] + " " + today.getDate() + ", " + today.getFullYear();
 }

@@ -5,10 +5,12 @@ import globalButtonStyles from "../../CSS/Button.module.css";
 import { navLinks } from "../../Data/Footer";
 import { socialLinks } from "../../Data/Links";
 import { FiMail } from "react-icons/fi";
+import { FaRegCopy, FaCopy } from "react-icons/fa";
 import { AiOutlineCloseCircle } from "react-icons/ai";
+import { RiMailAddLine } from "react-icons/ri";
 
 const Footer = () => {
-  let [copyBtnText, setCopyBtnText] = useState("Copy");
+  let [copyBtnText, setCopyBtnText] = useState(<FaRegCopy />);
 
   const bottomContainerRef = useRef(null);
 
@@ -46,8 +48,11 @@ const Footer = () => {
             {item.icon}
           </a>
         ))}
-        <div className={styles.social_wrapper}>
-          <FiMail onClick={() => toggleBottomContainer(true)} />
+        <div
+          onClick={() => toggleBottomContainer(true)}
+          className={styles.social_wrapper}
+        >
+          <FiMail />
         </div>
       </div>
       <div className={styles.copyright_container}>
@@ -57,7 +62,7 @@ const Footer = () => {
         <AiOutlineCloseCircle
           onClick={() => {
             toggleBottomContainer(false);
-            setCopyBtnText("Copy");
+            setCopyBtnText(<FaRegCopy />);
           }}
           className={styles.bottom_container_close_btn}
         />
@@ -71,13 +76,13 @@ const Footer = () => {
             href="mailto:tanishqvyas069@gmail.com"
             className={`${globalButtonStyles.basic_button} ${globalButtonStyles.basic_button_dark_filled}`}
           >
-            Mail
+            <RiMailAddLine />
           </a>
           <button
             className={`${globalButtonStyles.basic_button} ${globalButtonStyles.basic_button_dark_filled}`}
             onClick={() => {
               navigator.clipboard.writeText("tanishqvyas069@gmail.com");
-              setCopyBtnText("Copied");
+              setCopyBtnText(<FaCopy />);
             }}
           >
             {copyBtnText}

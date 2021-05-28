@@ -1,10 +1,10 @@
 import { websiteBaseURL } from "../Config/Config";
 
 export const navLinks = [
-    // {
-    //     name: "About",
-    //     link: websiteBaseURL + "/#about"
-    // },
+    {
+        name: "About",
+        link: websiteBaseURL + "/about"
+    },
     // {
     //     name: "Projects",
     //     link: websiteBaseURL + "/projects"
