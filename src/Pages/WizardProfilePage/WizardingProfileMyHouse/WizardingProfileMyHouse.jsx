@@ -11,7 +11,7 @@ const WizardingProfileMyHouse = () => {
         <p className={styles.my_house_para}>Sorted into</p>
         <h1 className={styles.my_house_name}>{wizardProfile.house.name}</h1>
         <p className={styles.my_house_date}>
-          * {wizardProfile.sortedOnDate} *{" "}
+          * {wizardProfile.sortedOnDate} *
         </p>
       </div>
       <img
