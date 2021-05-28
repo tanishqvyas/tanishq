@@ -2,6 +2,10 @@ import { websiteBaseURL } from "../Config/Config";
 
 export const navLinks = [
     {
+        name: "Portfolio",
+        link: websiteBaseURL + "/portfolio"
+    },
+    {
         name: "About",
         link: websiteBaseURL + "/about"
     },
@@ -17,13 +21,10 @@ export const navLinks = [
     //     name: "Contact",
     //     link: websiteBaseURL + "/contact"
     // },
+    
     {
         name: "Sorting",
         link: websiteBaseURL + "/sorting"
-    },
-    {
-        name: "Wizard Profile",
-        link: websiteBaseURL + "/wizard-profile"
     }
 
 ]

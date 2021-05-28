@@ -16,6 +16,8 @@ const WizardProfileMyWand = lazy(() =>
   import("./WizardProfileMyWand/WizardProfileMyWand")
 );
 
+const WizardProfileFavouriteBeast = lazy(() => import("./WizardProfileFavouriteBeast/WizardProfileFavouriteBeast"));
+
 const WizardProfileMyPatronus = lazy(() =>
   import("./WizardProfileMyPatronus/WizardProfileMyPatronus")
 );
@@ -35,6 +37,10 @@ const WizardProfilePage = () => {
 
       <Suspense fallback={Loader}>
         <WizardProfileMyWand />
+      </Suspense>
+      
+      <Suspense fallback={Loader}>
+        <WizardProfileFavouriteBeast />
       </Suspense>
 
       <Suspense fallback={Loader}>

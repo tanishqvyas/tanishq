@@ -26,11 +26,11 @@ function App() {
         <Suspense fallback={Loader}>
           <Switch>
             <Route exact path="/" component={HomePage} />
-            <Route exact path="/about" component={AboutPage} />
+            <Route exact path="/about" component={WizardProfilePage} />
             <Route exact path="/blog" component={BlogsPage} />
             <Route exact path="/home" component={HomePage} />
+            <Route exact path="/portfolio" component={AboutPage} />
             <Route exact path="/sorting" component={SortingPage} />
-            <Route exact path="/wizard-profile" component={WizardProfilePage} />
             <Route exact path="/*" component={NotFoundPage} />
           </Switch>
         </Suspense>

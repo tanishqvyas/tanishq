@@ -15,7 +15,10 @@ const WizardingProfileMainSection = () => {
       <h3 className={styles.i_am_a}>I'm a</h3>
       <h1 className={styles.house_name}>{wizardProfile.house.name}</h1>
       <p className={styles.tagline}>{wizardProfile.house.tagline}</p>
-      <BsSquare className={styles.square} />
+      <div className={styles.square_wrapper}>
+        <BsSquare className={styles.square} />
+        <BsSquare className={`${styles.square} ${styles.square1}`} />
+      </div>
       <p className={styles.desc_para}>{wizardProfile.house.desc}</p>
     </section>
   );

@@ -17,6 +17,8 @@ import RAVENCLAW_CREST_BANNER from "../Assets/Banners/ravenclawBanner.png";
 import PATRONUS_IMAGE from "../Assets/Images/mypatronus.png";
 import WAND_IMAGE from "../Assets/Images/mywand.png";
 
+import HORNED_SERPENT_IMAGE from "../Assets/Images/hornedserpent.jpg";
+
 export const gryffindorInfo = {
   name: "gryffindor",
   tagline: "courage, bravery, determination",
@@ -64,4 +66,8 @@ export const wizardProfile = {
     desc: "Rowan wood with a unicorn hair core, 14 ½ and slightly yielding flexibility",
     image: WAND_IMAGE,
   },
+  beast : {
+    name: "Horned Serpent",
+    image: HORNED_SERPENT_IMAGE
+  }
 };
