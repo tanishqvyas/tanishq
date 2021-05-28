@@ -1,0 +1,62 @@
+#my_wand_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 13vh 0;
+  color: var(--primary-white);
+  box-sizing: border-box;
+  position: relative;
+}
+
+.my_wand {
+  font-size: 42px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 64px;
+}
+
+.my_wand::selection {
+  background-color: var(--primary-blue);
+}
+
+.my_wand_img_wrapper {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom right, #ffffff00 0%, #ffffff30 100%);
+  margin-bottom: 64px;
+  transition: all 0.3s ease-in-out;
+}
+
+.my_wand_img_wrapper:hover {
+  transform: scale(1.2);
+  background: linear-gradient(to top right, #ffffff00 0%, #ffffff30 100%);
+}
+
+.my_wand_desc {
+  font-size: 32px;
+}
+
+.my_wand_desc::selection {
+  background-color: var(--primary-blue);
+}
+
+@media only screen and (max-width: 1023px) {
+  #my_wand_section {
+    padding: 13vh 13px;
+  }
+  .my_wand_img_wrapper {
+    height: 180px;
+    width: 180px;
+    margin-bottom: 24px;
+  }
+
+  .my_wand_image {
+    height: 180px;
+    width: auto;
+  }
+
+  .my_wand_desc {
+    font-size: 22px;
+  }
+}
