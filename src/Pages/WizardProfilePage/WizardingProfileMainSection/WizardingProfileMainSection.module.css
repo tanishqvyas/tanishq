@@ -1,0 +1,56 @@
+.square {
+  transform: rotate(45deg);
+  margin-bottom: 42px;
+}
+
+#intro_container {
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  padding: 17vh 0;
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    var(--primary-gryffindor-color) 0%,
+    var(--primary-dark-bg) 100%
+  );
+  color: var(--primary-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main_logo {
+  margin-bottom: 42px;
+}
+
+.i_am_a {
+  margin: 0;
+  font-size: 42px;
+  font-weight: 900;
+  margin-bottom: 23px;
+}
+
+.house_name {
+  margin: 0;
+  font-size: 96px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 42px;
+}
+
+.tagline {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 42px;
+}
+
+.desc_para {
+  margin: 0;
+  font-size: 28px;
+  /* font-weight: 900; */
+  margin-bottom: 64px;
+  width: 80%;
+}

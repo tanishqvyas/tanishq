@@ -1,0 +1,27 @@
+#my_house {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: var(--primary-gryffindor-color);
+  width: 100%;
+  padding: 7vh 0;
+  align-items: center;
+  color: var(--primary-white);
+}
+
+.my_house_para {
+  font-size: 24px;
+}
+
+.my_house_name {
+  font-size: 64px;
+  text-transform: uppercase;
+  margin: 24px 0;
+}
+
+.my_house_date {
+  font-size: 22px;
+}
+
+.house_crest_banner {
+}

@@ -9,6 +9,13 @@
   --primary-black: #181616;
   --primary-green: rgb(86, 180, 86);
 
+
+  /* House Colors */
+  --primary-ravenclaw-color : #173250;
+  --primary-slytherin-color : #1c3d38;
+  --primary-gryffindor-color : #6b2b2b;
+  --primary-hufflepuff-color: #b5803e;
+
   /* Distance Variables */
   --navbar-height: 42px;
   --primary-mobile-gutter: 32px;
