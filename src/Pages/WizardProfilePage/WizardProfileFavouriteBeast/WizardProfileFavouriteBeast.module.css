@@ -19,12 +19,14 @@
 
 .fav_beast_txt {
     font-size: 22px;
+    font-family: var(--primary-heading-font);
 }
 
 .fav_beast_name {
     margin: 0;
     font-size: 64px;
     margin-bottom: 42px;
+    font-family: var(--primary-hp-heading-font);
 }
 
 .separator {
@@ -33,7 +35,9 @@
 
 .fav_beast_para {
     font-size: 24px;
-    margin: 0 13px;
+    margin: 0 5%;
+    font-family: var(--primary-para-font);
+    font-weight: 600;
 }
 
 .fav_beast_img {

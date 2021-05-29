@@ -12,11 +12,14 @@
 
 .header_title {
   font-size: 52px;
+  font-family: var(--primary-heading-font);
 }
 
 .para {
   font-size: 24px;
   width: 70%;
+  font-family: var(--primary-para-font);
+  font-weight: 600;
 }
 
 .house_prides_container {
@@ -62,6 +65,7 @@
   align-items: center;
   width: 100%;
   color: var(--primary-white);
+  font-family: var(--primary-hp-heading-font);
 }
 
 .house_pride_name {

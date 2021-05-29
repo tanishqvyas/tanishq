@@ -12,16 +12,19 @@
 
 .my_house_para {
   font-size: 24px;
+  font-family: var(--primary-heading-font);
 }
 
 .my_house_name {
   font-size: 64px;
   text-transform: uppercase;
   margin: 24px 0;
+  font-family: var(--primary-hp-heading-font);
 }
 
 .my_house_date {
   font-size: 22px;
+  font-family: var(--primary-heading-font);
 }
 
 

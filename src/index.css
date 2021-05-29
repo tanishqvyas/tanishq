@@ -1,4 +1,9 @@
 :root {
+  /* PRIMARY FONTS */
+  --primary-hp-heading-font: "Amiri", serif;
+  --primary-heading-font: "Noto Serif", serif;
+  --primary-para-font: "Poppins", sans-serif;
+
   /* Primary colors */
   --primary-dark-bg: #03182a;
   --primary-card-bg: #0d2941;
@@ -6,16 +11,15 @@
   --primary-purple: #4b6cc1;
   --primary-grey: #bbbdbb;
   --primary-white: #fafafa;
-  --primary-pink: #B00B69;
+  --primary-pink: #b00b69;
   --primary-black: #181616;
   --primary-green: rgb(86, 180, 86);
   --test: #156bbb;
 
-
   /* House Colors */
-  --primary-ravenclaw-color : #173250;
-  --primary-slytherin-color : #1c3d38;
-  --primary-gryffindor-color : #6b2b2b;
+  --primary-ravenclaw-color: #173250;
+  --primary-slytherin-color: #1c3d38;
+  --primary-gryffindor-color: #6b2b2b;
   --primary-hufflepuff-color: #b5803e;
   --primary-horned-serpent-color: #326684;
 

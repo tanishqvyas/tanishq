@@ -40,6 +40,7 @@
   font-size: 42px;
   font-weight: 900;
   margin-bottom: 23px;
+  font-family: var(--primary-heading-font);
 }
 
 .house_name {
@@ -48,6 +49,7 @@
   font-weight: 900;
   text-transform: uppercase;
   margin-bottom: 42px;
+  font-family: var(--primary-hp-heading-font);
 }
 
 .tagline {
@@ -56,6 +58,7 @@
   font-weight: 400;
   text-transform: capitalize;
   margin-bottom: 42px;
+  font-family: var(--primary-heading-font);
 }
 
 .desc_para {
@@ -64,6 +67,7 @@
   /* font-weight: 900; */
   margin-bottom: 64px;
   width: 80%;
+  font-family: var(--primary-para-font);
 }
 
 @media only screen and (max-width: 1023px) {

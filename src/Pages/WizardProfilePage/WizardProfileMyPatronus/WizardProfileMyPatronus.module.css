@@ -16,6 +16,7 @@
   margin: 0;
   margin-bottom: 64px;
   margin-top: 50px;
+  font-family: var(--primary-heading-font);
 }
 
 .my_patronus::selection {
@@ -48,6 +49,7 @@
 .my_patronus_name {
   font-size: 64px;
   margin-bottom: 24px;
+  font-family: var(--primary-hp-heading-font);
 }
 
 .my_patronus_name::selection {

@@ -29,9 +29,15 @@ const housePrideInfo = [
   },
 ];
 
+const prideBgColors = ["#173250", "#1c3d38", "#6b2b2b", "#b5803e"];
+
 const HousePrideSection = () => {
   return (
-    <section id="house-pride" className={styles.container}>
+    <section
+      style={{ background: prideBgColors[Math.floor(Math.random() * 4)] }}
+      id="house-pride"
+      className={styles.container}
+    >
       <h1 className={styles.header_title}>House Prides</h1>
       <img src={SEPARATOR_ONE} alt="" />
       <p className={styles.para}>

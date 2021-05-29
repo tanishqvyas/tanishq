@@ -31,6 +31,7 @@
   font-weight: 700;
   border-radius: 5px 0px 0px 5px;
   user-select: none;
+  font-family: var(--primary-heading-font);
 }
 
 #nav_container {
@@ -48,6 +49,7 @@
   user-select: none;
   margin: auto 0;
   margin-left: 42px;
+  font-family: var(--primary-heading-font);
 }
 
 .nav_ele:hover {

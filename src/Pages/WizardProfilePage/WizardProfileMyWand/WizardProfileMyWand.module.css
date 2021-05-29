@@ -13,6 +13,7 @@
   font-weight: 500;
   margin: 0;
   margin-bottom: 64px;
+  font-family: var(--primary-heading-font);
 }
 
 .my_wand::selection {
@@ -35,6 +36,8 @@
 
 .my_wand_desc {
   font-size: 32px;
+  font-family: var(--primary-para-font);
+  font-weight: 600;
 }
 
 .my_wand_desc::selection {

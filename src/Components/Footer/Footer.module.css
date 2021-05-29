@@ -23,6 +23,7 @@
   transition: all 0.2s ease-in-out;
   user-select: none;
   margin: 10px 23px;
+  font-family: var(--primary-heading-font);
 }
 
 .nav_ele:hover {
@@ -37,6 +38,7 @@
   margin-bottom: 13px;
   text-transform: capitalize;
   position: relative;
+  font-family: var(--primary-hp-heading-font);
 }
 
 .connect_with_me:before,
@@ -88,9 +90,10 @@
 /* COPY right */
 .copyright_container {
   color: var(--primary-grey);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   word-spacing: 5px;
+  font-family: var(--primary-hp-heading-font);
 }
 
 /* BOTTOM CONTAINER */
