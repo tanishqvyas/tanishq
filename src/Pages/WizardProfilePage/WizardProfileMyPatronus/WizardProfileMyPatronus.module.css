@@ -7,7 +7,7 @@
   color: var(--primary-white);
   position: relative;
   padding: 7vh 0;
-  /* padding-bottom: 0vh; */
+  padding-bottom: 0vh;
 }
 
 .my_patronus {
