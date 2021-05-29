@@ -19,7 +19,7 @@ const ImageContainer = styled.div`
 
   @media screen and (max-width: 900px) {
     box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.05);
-    height: 550px;
+    height: 650px;
   }
 `;
 

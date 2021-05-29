@@ -22,6 +22,8 @@ const WizardProfileMyPatronus = lazy(() =>
   import("./WizardProfileMyPatronus/WizardProfileMyPatronus")
 );
 
+const HousePrideSection = lazy(() => import("./HousePrideSection/HousePrideSection"));
+
 const Footer = lazy(() => import("../../Components/Footer/Footer"));
 
 const WizardProfilePage = () => {
@@ -45,6 +47,10 @@ const WizardProfilePage = () => {
 
       <Suspense fallback={Loader}>
         <WizardProfileMyPatronus />
+      </Suspense>
+      
+      <Suspense fallback={Loader}>
+        <HousePrideSection />
       </Suspense>
 
       <Suspense fallback={Loader}>

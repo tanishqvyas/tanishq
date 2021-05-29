@@ -9,10 +9,10 @@ export const navLinks = [
         name: "About",
         link: websiteBaseURL + "/about"
     },
-    // {
-    //     name: "Projects",
-    //     link: websiteBaseURL + "/projects"
-    // },
+    {
+        name: "Projects",
+        link: websiteBaseURL + "/projects"
+    },
     {
         name: "Blog",
         link: websiteBaseURL + "/blog"

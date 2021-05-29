@@ -3,10 +3,11 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  padding: 13vh 0;
   box-sizing: border-box;
   color: var(--primary-white);
   position: relative;
+  padding: 7vh 0;
+  /* padding-bottom: 0vh; */
 }
 
 .my_patronus {
@@ -14,6 +15,7 @@
   font-weight: 500;
   margin: 0;
   margin-bottom: 64px;
+  margin-top: 50px;
 }
 
 .my_patronus::selection {
@@ -45,6 +47,7 @@
 
 .my_patronus_name {
   font-size: 64px;
+  margin-bottom: 24px;
 }
 
 .my_patronus_name::selection {
