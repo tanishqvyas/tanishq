@@ -1,6 +1,6 @@
 .heading {
   font-size: 42px;
-  display: inline-block;
+  display: inline-block !important;
 }
 
 .heading_dark {

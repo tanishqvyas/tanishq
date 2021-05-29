@@ -12,8 +12,8 @@ import {
 import Navbar from "./Components/Navbar/Navbar";
 import Loader from "./Components/Loader/Loader";
 const HomePage = lazy(() => import("./Pages/HomePage/HomePage"));
+const PortfolioPage = lazy(() => import("./Pages/PortfolioPage/PortfolioPage"));
 const ProjectsPage = lazy(() => import("./Pages/ProjectsPage/ProjectsPage"));
-const AboutPage = lazy(() => import("./Pages/AboutPage/AboutPage"));
 const BlogsPage = lazy(() => import("./Pages/BlogsPage/BlogsPage"));
 const SortingPage = lazy(() => import("./Pages/SortingPage/SortingPage"));
 const WizardProfilePage = lazy(() => import("./Pages/WizardProfilePage/WizardProfilePage"));
@@ -30,7 +30,7 @@ function App() {
             <Route exact path="/about" component={WizardProfilePage} />
             <Route exact path="/blog" component={BlogsPage} />
             <Route exact path="/home" component={HomePage} />
-            <Route exact path="/portfolio" component={AboutPage} />
+            <Route exact path="/portfolio" component={PortfolioPage} />
             <Route exact path="/projects" component={ProjectsPage} />
             <Route exact path="/sorting" component={SortingPage} />
             <Route exact path="/*" component={NotFoundPage} />

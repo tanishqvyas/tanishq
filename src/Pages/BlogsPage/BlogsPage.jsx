@@ -1,9 +1,12 @@
 import React, { Suspense, lazy, useState, useEffect } from "react";
 import styles from "./BlogsPage.module.css";
 import globalSectionStyles from "../../CSS/Section.module.css";
+import globalHeadingStyles from "../../CSS/Heading.module.css";
 
 import axios from "axios";
 import { mediumAPI } from "../../Config/Config";
+
+import SEAPRATOR_IMAGE from "../../Assets/Icons/separator1.svg";
 
 import Loader from "../../Components/Loader/Loader";
 const BlogCard = lazy(() => import("../../Components/BlogCard/BlogCard"));
@@ -33,10 +36,11 @@ const BlogsPage = () => {
     <main className={styles.container}>
       <section className={styles.info_container}>
         <h1
-          className={`${globalSectionStyles.heading} ${globalSectionStyles.heading_light}`}
+          className={`${globalHeadingStyles.heading} ${globalHeadingStyles.heading_light}`}
         >
-          Blog
+          My Blogs
         </h1>
+
         <p
           className={`${styles.intro_para} ${globalSectionStyles.para} ${globalSectionStyles.para_light}`}
         >
@@ -46,6 +50,7 @@ const BlogsPage = () => {
           start writing articles, documenting my learning. Below are the
           articles that I have written over last few years.
         </p>
+        <img src={SEAPRATOR_IMAGE} alt="" />
       </section>
 
       {blogList === null ? (
