@@ -23,7 +23,7 @@ const MainSection = () => {
           {getGreeting()}, I'm <span className={styles.name}>Tanishq Vyas</span>
         </h1>
         <p className={styles.para}>
-          I am a {getCurrentAge()}-year-old who loves making games, writing
+          I am a {getCurrentAge()}-year-old who loves wizarding world of Harry Potter, writing
           poems & programming.
         </p>
 

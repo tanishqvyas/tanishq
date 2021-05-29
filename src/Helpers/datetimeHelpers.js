@@ -1,19 +1,49 @@
+const monthNames = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
 
-const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+const greetingsArray = [
+  "Good Evening",
+  "Good Evening",
+  "Good Evening",
+  "Good Evening",
+  "Good Evening",
+  "Good Morning",
+  "Good Morning",
+  "Good Morning",
+  "Good Morning",
+  "Good Morning",
+  "Good Morning",
+  "Good Morning",
+  "Good Afternoon",
+  "Good Afternoon",
+  "Good Afternoon",
+  "Good Afternoon",
+  "Good Afternoon",
+  "Good Afternoon",
+  "Good Evening",
+  "Good Evening",
+  "Good Evening",
+  "Good Evening",
+  "Good Evening",
+  "Good Evening",
+];
 
 export const getGreeting = () => {
   let today = new Date();
-  let currentHours = today.getHours();
-
-  if (currentHours >= 0 && currentHours < 5) {
-    return "Good Evening";
-  } else if (currentHours >= 5 && currentHours < 12) {
-    return "Good Morning";
-  } else if (currentHours >= 12 && currentHours < 6) {
-    return "Good Afternoon";
-  } else {
-    return "Good Evening";
-  }
+  let currentHours = parseInt(today.getHours());
+  return greetingsArray[currentHours];
 };
 
 export const getCurrentAge = (
@@ -37,9 +67,14 @@ export const getCurrentAge = (
   }
 };
 
-
 export const formatDate = (datetimeString) => {
   let today = new Date(datetimeString);
 
-  return monthNames[today.getMonth()] + " " + today.getDate() + ", " + today.getFullYear();
-}
+  return (
+    monthNames[today.getMonth()] +
+    " " +
+    today.getDate() +
+    ", " +
+    today.getFullYear()
+  );
+};

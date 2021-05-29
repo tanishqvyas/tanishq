@@ -16,9 +16,10 @@ const AboutSection = () => {
       <p
         className={`${globalSectionStyles.para_light} ${globalSectionStyles.para}`}
       >
-        Hello! I'm Tanishq Vyas, a {getCurrentAge()}-year-old who loves poetry
-        and programming. I have always been intrigued by the ever evolving
-        technology around me; which always sparked my curiosity.
+        Hello! I'm Tanishq Vyas, a {getCurrentAge()}-year-old who loves the
+        wizarding world of Harry Potter, poetry & programming. I have always
+        been intrigued by the ever evolving technology around me; which always
+        sparked my curiosity.
       </p>
       <p
         className={`${globalSectionStyles.para_light} ${globalSectionStyles.para}`}
