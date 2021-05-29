@@ -5,7 +5,7 @@ import globalSectionStyles from "../../CSS/Section.module.css";
 import axios from "axios";
 import { mediumAPI } from "../../Config/Config";
 
-const Loader = lazy(() => import("../../Components/Loader/Loader"));
+import Loader from "../../Components/Loader/Loader";
 const BlogCard = lazy(() => import("../../Components/BlogCard/BlogCard"));
 const Footer = lazy(() => import("../../Components/Footer/Footer"));
 
