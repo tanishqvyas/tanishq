@@ -19,6 +19,20 @@ import WAND_IMAGE from "../Assets/Images/mywand.png";
 
 import HORNED_SERPENT_IMAGE from "../Assets/Images/hornedserpent.jpg";
 
+import {
+  FaPython,
+  FaReact,
+  FaGitAlt,
+  FaGithub,
+  FaUnity,
+  FaCss3Alt,
+  FaHtml5,
+  FaFigma,
+} from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
+import { HiCode } from "react-icons/hi";
+import {SiMysql} from "react-icons/si";
+
 export const gryffindorInfo = {
   name: "gryffindor",
   tagline: "courage, bravery, determination",
@@ -57,7 +71,7 @@ const ravenclawInfo = {
 
 export const wizardProfile = {
   house: gryffindorInfo,
-  sortedOnDate : "September 1, 2011",
+  sortedOnDate: "September 1, 2011",
   patronus: {
     name: "Bay Mare",
     image: PATRONUS_IMAGE,
@@ -66,8 +80,66 @@ export const wizardProfile = {
     desc: "Rowan wood with a unicorn hair core, 14 ½ and slightly yielding flexibility",
     image: WAND_IMAGE,
   },
-  beast : {
+  beast: {
     name: "Horned Serpent",
-    image: HORNED_SERPENT_IMAGE
-  }
+    image: HORNED_SERPENT_IMAGE,
+  },
 };
+
+export const mySkillsList = [
+  {
+    name: "Python3",
+    icon: <FaPython />,
+    percentage: 80,
+  },
+  {
+    name: "Javascript",
+    icon: <IoLogoJavascript />,
+    percentage: 70,
+  },
+  {
+    name: "HTML5",
+    icon: <FaHtml5 />,
+    percentage: 85,
+  },
+  {
+    name: "CSS3",
+    icon: <FaCss3Alt />,
+    percentage: 80,
+  },
+  {
+    name: "React",
+    icon: <FaReact />,
+    percentage: 83,
+  },
+  {
+    name: "C",
+    icon: <HiCode />,
+    percentage: 57,
+  },
+  {
+    name: "MySQL",
+    icon: <SiMysql />,
+    percentage: 66,
+  },
+  {
+    name: "Git",
+    icon: <FaGitAlt />,
+    percentage: 55,
+  },
+  {
+    name: "Github",
+    icon: <FaGithub />,
+    percentage: 50,
+  },
+  {
+    name: "Unity",
+    icon: <FaUnity />,
+    percentage: 40,
+  },
+  {
+    name: "Figma",
+    icon: <FaFigma />,
+    percentage: 60,
+  },
+];

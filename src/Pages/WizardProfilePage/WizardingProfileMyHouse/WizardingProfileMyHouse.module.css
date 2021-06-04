@@ -8,7 +8,33 @@
   align-items: center;
   color: var(--primary-white);
   box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
 }
+
+.bg_icons {
+  position: absolute;
+  opacity: 0.2;
+}
+
+#feather {
+  font-size: 315px;
+  right: -30px;
+  top: -20px;
+}
+
+#snitch_one {
+  font-size: 128px;
+  left: -30px;
+  top: 20px;
+}
+
+#quidditch_one {
+  font-size: 64px;
+  /* left: -30px; */
+  top: 20px;
+}
+
 
 .my_house_para {
   font-size: 24px;

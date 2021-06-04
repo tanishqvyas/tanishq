@@ -1,14 +1,28 @@
-import React from 'react';
+import React, { lazy, Suspense } from "react";
 import styles from "./SortingPage.module.css";
 
-import image from "../../Assets/Logos/hufflepuffCrest.svg";
+import Loader from "../../Components/Loader/Loader";
+
+const SortingPageMainSection = lazy(() =>
+  import("./SortingPageMainSection/SortingPageMainSection")
+);
+
+const SortingSongSection = lazy(() =>
+  import("./SortingSongSection/SortingSongSection")
+);
 
 const SortingPage = () => {
-    return ( 
-        <main>
-            
-        </main>
-     );
-}
- 
+  return (
+    <main>
+      <Suspense fallback={Loader}>
+        <SortingPageMainSection />
+      </Suspense>
+
+      <Suspense fallback={Loader}>
+        <SortingSongSection />
+      </Suspense>
+    </main>
+  );
+};
+
 export default SortingPage;

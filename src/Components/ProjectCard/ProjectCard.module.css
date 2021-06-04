@@ -1,5 +1,5 @@
 .container {
-  width: min(1200px, 80%);
+  width: 1000px;
   padding: 13px 32px;
   color: var(--primary-white);
   display: flex;
@@ -7,11 +7,122 @@
   border-radius: 20px;
   margin-bottom: 36px;
   text-align: left;
+  box-sizing: border-box;
 }
 
 .project_name {
-  font-size: 32px;
+  font-size: 28px;
+  font-family: var(--primary-hp-heading-font);
+  margin: 0;
+}
+
+/* SUB HEADER */
+.sub_header_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-family: var(--primary-heading-font);
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 32px;
+}
+
+.dot {
+  color: var(--primary-green);
+}
+
+.para {
+  font-family: var(--primary-para-font);
+  color: var(--primary-white);
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.tech_used_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 23px;
+}
+
+.tech_used {
+  text-decoration: none;
+  color: var(--primary-white);
+  border: 1px solid var(--primary-grey);
+  padding: 5px 7px;
+  margin-right: 17px;
+  margin-bottom: 17px;
+  border-radius: 7px;
+  transition: all 0.3s ease-in-out;
+  font-size: 14px;
+  font-family: var(--primary-para-font);
+  cursor: pointer;
+}
+
+.tech_used:hover {
+  background-color: var(--primary-dark-bg);
+  border: 1px solid var(--primary-dark-bg);
+}
+
+.links_container {
+
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-bottom: 23px;
+}
+
+
+.link_element {
+  text-decoration: none;
+  color: var(--primary-white);
+  font-size: 18px;
+  font-weight: 700;
+  font-family: var(--primary-heading-font);
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 13px;
+  border-radius: 13px;
+  background: #fafafa17;
+  transition: all 0.3s ease-in-out;
+}
+
+.link_element:hover {
+  
+  background: #00000017;
+
+}
+
+
+
+.outer_arrow {
+  margin-right: 5px;
 }
 
 @media only screen and (max-width: 1023px) {
+  .container {
+    width: 100%;
+    padding: 13px;
+  }
+
+  .project_name {
+    font-size: 18px;
+  }
+
+  .para {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .tech_used {
+    font-size: 11px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .link_element {
+    font-size: 13px;
+  }
 }

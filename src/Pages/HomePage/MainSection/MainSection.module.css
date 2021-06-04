@@ -24,16 +24,20 @@
 }
 
 .heading {
-  font-size: 42px;
+  font-size: 56px;
   color: var(--primary-white);
   user-select: none;
+  font-family: var(--primary-hp-heading-font);
+  margin: 0;
 }
 
 .para {
   color: var(--primary-white);
   font-size: 36px;
+  font-weight: 700;
   user-select: none;
   width: 800px;
+  font-family: var(--primary-para-font);
 }
 
 .name {

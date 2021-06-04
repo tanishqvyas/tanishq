@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
+  width: 100%;
 }
 
 .header_section {
@@ -19,11 +19,20 @@
 
 /* PROJECTS */
 .projects_container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100%;
-  box-sizing: border-box;
-  padding: 7vh 69px;
+  padding: 7vh 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-sizing: border-box;
+}
+
+
+@media only screen and (max-width: 1023px) {
+
+  .projects_container {
+    padding: 5vh 10px;
+
+  } 
 }

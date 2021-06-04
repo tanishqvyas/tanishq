@@ -1,11 +1,14 @@
-import React from "react";
+import React, {lazy, Suspense} from "react";
 import styles from "./ProjectsPage.module.css";
 import globalHeadingStyles from "../../CSS/Heading.module.css";
 
 import SEAPRATOR_IMAGE from "../../Assets/Icons/separator1.svg";
 
 import { projectsList } from "../../Data/projects";
-import ProjectCard from "../../Components/ProjectCard/ProjectCard";
+import Loader from "../../Components/Loader/Loader";
+
+const ProjectCard = lazy(() => import("../../Components/ProjectCard/ProjectCard"));
+const Footer = lazy(() => import("../../Components/Footer/Footer"));
 
 const ProjectsPage = () => {
   return (
@@ -17,16 +20,21 @@ const ProjectsPage = () => {
           My Projects
         </h1>
         <p className={styles.header_para}>
-          Here is a collection of my projects that have done over the years.
+          Here are a few of the many projects I have built over the years.
         </p>
         <img src={SEAPRATOR_IMAGE} alt="" />
       </section>
 
       <section className={styles.projects_container}>
         {projectsList.map((item, index) => (
+          <Suspense fallback={Loader}>
           <ProjectCard key={index} {...item} />
+        </Suspense>
         ))}
       </section>
+      <Suspense fallback={Loader}>
+        <Footer />
+      </Suspense>
     </main>
   );
 };
