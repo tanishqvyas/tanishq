@@ -16,14 +16,14 @@
     "static/js/6.9fc2556f.chunk.js": "/tanishq/static/js/6.9fc2556f.chunk.js",
     "static/js/6.9fc2556f.chunk.js.map": "/tanishq/static/js/6.9fc2556f.chunk.js.map",
     "main.css": "/tanishq/static/css/main.7d19e150.chunk.css",
-    "main.js": "/tanishq/static/js/main.936c3215.chunk.js",
-    "main.js.map": "/tanishq/static/js/main.936c3215.chunk.js.map",
+    "main.js": "/tanishq/static/js/main.94bdb049.chunk.js",
+    "main.js.map": "/tanishq/static/js/main.94bdb049.chunk.js.map",
     "runtime-main.js": "/tanishq/static/js/runtime-main.46451a9d.js",
     "runtime-main.js.map": "/tanishq/static/js/runtime-main.46451a9d.js.map",
     "static/js/9.3e9e1815.chunk.js": "/tanishq/static/js/9.3e9e1815.chunk.js",
     "static/js/9.3e9e1815.chunk.js.map": "/tanishq/static/js/9.3e9e1815.chunk.js.map",
-    "static/js/10.a47e24d5.chunk.js": "/tanishq/static/js/10.a47e24d5.chunk.js",
-    "static/js/10.a47e24d5.chunk.js.map": "/tanishq/static/js/10.a47e24d5.chunk.js.map",
+    "static/js/10.829892a0.chunk.js": "/tanishq/static/js/10.829892a0.chunk.js",
+    "static/js/10.829892a0.chunk.js.map": "/tanishq/static/js/10.829892a0.chunk.js.map",
     "static/js/11.85b94dd5.chunk.js": "/tanishq/static/js/11.85b94dd5.chunk.js",
     "static/js/11.85b94dd5.chunk.js.map": "/tanishq/static/js/11.85b94dd5.chunk.js.map",
     "static/css/12.9cd3fb86.chunk.css": "/tanishq/static/css/12.9cd3fb86.chunk.css",
@@ -123,7 +123,7 @@
     "static/css/33.4e663598.chunk.css.map": "/tanishq/static/css/33.4e663598.chunk.css.map",
     "static/css/5.62dd82b1.chunk.css.map": "/tanishq/static/css/5.62dd82b1.chunk.css.map",
     "static/css/main.7d19e150.chunk.css.map": "/tanishq/static/css/main.7d19e150.chunk.css.map",
-    "static/js/10.a47e24d5.chunk.js.LICENSE.txt": "/tanishq/static/js/10.a47e24d5.chunk.js.LICENSE.txt",
+    "static/js/10.829892a0.chunk.js.LICENSE.txt": "/tanishq/static/js/10.829892a0.chunk.js.LICENSE.txt",
     "static/media/forest.7f347660.jpeg": "/tanishq/static/media/forest.7f347660.jpeg",
     "static/media/gryffindorBanner.73b05156.png": "/tanishq/static/media/gryffindorBanner.73b05156.png",
     "static/media/gryffindorCrest.d959739b.svg": "/tanishq/static/media/gryffindorCrest.d959739b.svg",
@@ -146,8 +146,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.46451a9d.js",
-    "static/js/10.a47e24d5.chunk.js",
+    "static/js/10.829892a0.chunk.js",
     "static/css/main.7d19e150.chunk.css",
-    "static/js/main.936c3215.chunk.js"
+    "static/js/main.94bdb049.chunk.js"
   ]
 }
