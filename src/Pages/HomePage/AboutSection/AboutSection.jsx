@@ -33,7 +33,7 @@ const AboutSection = () => {
         >
           PES University
         </a>{" "}
-        Bengalure in Computer Science and Engineering. Currently, I am interning
+        Bengaluru in Computer Science and Engineering. Currently, I am interning
         at{" "}
         <a
           className={globalLinkStyles.link}
