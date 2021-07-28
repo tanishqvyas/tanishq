@@ -1,0 +1,2 @@
+(this.webpackJsonptanishq=this.webpackJsonptanishq||[]).push([[29],{141:function(n,t,s){},441:function(n,t,s){"use strict";s.r(t);s(1);var a=s(141),i=s.n(a),c=s(2);t.default=function(){return Object(c.jsx)("main",{className:i.a.container})}}}]);
+//# sourceMappingURL=29.d57398df.chunk.js.map
