@@ -9,6 +9,8 @@ const SkillsSection = lazy(() => import("./SkillsSection/SkillsSection"));
 const Footer = lazy(() => import("../../Components/Footer/Footer"));
 
 const HomePage = () => {
+
+
   return (
     <main className={styles.container}>
       <Suspense fallback={Loader}>

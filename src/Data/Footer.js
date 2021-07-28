@@ -17,9 +17,9 @@ export const navLinks = [
         name: "Contact",
         link: websiteBaseURL + "/contact"
     },
-    {
-        name: "Sorting",
-        link: websiteBaseURL + "/sorting"
-    }
+    // {
+    //     name: "Sorting",
+    //     link: websiteBaseURL + "/sorting"
+    // }
 
 ]

@@ -30,9 +30,9 @@ function App() {
             <Route exact path="/about" component={WizardProfilePage} />
             <Route exact path="/blog" component={BlogsPage} />
             <Route exact path="/home" component={HomePage} />
-            <Route exact path="/portfolio" component={PortfolioPage} />
+            {/* <Route exact path="/portfolio" component={PortfolioPage} /> */}
             <Route exact path="/projects" component={ProjectsPage} />
-            <Route exact path="/sorting" component={SortingPage} />
+            {/* <Route exact path="/sorting" component={SortingPage} /> */}
             <Route exact path="/*" component={NotFoundPage} />
           </Switch>
         </Suspense>

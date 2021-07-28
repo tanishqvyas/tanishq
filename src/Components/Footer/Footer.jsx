@@ -40,6 +40,7 @@ const Footer = () => {
       <div className={styles.socials_container}>
         {socialLinks.map((item, index) => (
           <a
+            key={index}
             target="_blank"
             rel="me"
             href={item.link}
