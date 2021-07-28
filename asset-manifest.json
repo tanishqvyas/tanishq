@@ -18,8 +18,8 @@
     "main.css": "/tanishq/static/css/main.7d19e150.chunk.css",
     "main.js": "/tanishq/static/js/main.97d4d7e5.chunk.js",
     "main.js.map": "/tanishq/static/js/main.97d4d7e5.chunk.js.map",
-    "runtime-main.js": "/tanishq/static/js/runtime-main.a5eb9d39.js",
-    "runtime-main.js.map": "/tanishq/static/js/runtime-main.a5eb9d39.js.map",
+    "runtime-main.js": "/tanishq/static/js/runtime-main.01fae438.js",
+    "runtime-main.js.map": "/tanishq/static/js/runtime-main.01fae438.js.map",
     "static/js/9.395de532.chunk.js": "/tanishq/static/js/9.395de532.chunk.js",
     "static/js/9.395de532.chunk.js.map": "/tanishq/static/js/9.395de532.chunk.js.map",
     "static/js/10.ea342332.chunk.js": "/tanishq/static/js/10.ea342332.chunk.js",
@@ -60,8 +60,8 @@
     "static/js/22.d41154e6.chunk.js": "/tanishq/static/js/22.d41154e6.chunk.js",
     "static/js/22.d41154e6.chunk.js.map": "/tanishq/static/js/22.d41154e6.chunk.js.map",
     "static/css/23.521fed30.chunk.css": "/tanishq/static/css/23.521fed30.chunk.css",
-    "static/js/23.6a0e2218.chunk.js": "/tanishq/static/js/23.6a0e2218.chunk.js",
-    "static/js/23.6a0e2218.chunk.js.map": "/tanishq/static/js/23.6a0e2218.chunk.js.map",
+    "static/js/23.b591eba8.chunk.js": "/tanishq/static/js/23.b591eba8.chunk.js",
+    "static/js/23.b591eba8.chunk.js.map": "/tanishq/static/js/23.b591eba8.chunk.js.map",
     "static/css/24.cfdeb96b.chunk.css": "/tanishq/static/css/24.cfdeb96b.chunk.css",
     "static/js/24.320c534f.chunk.js": "/tanishq/static/js/24.320c534f.chunk.js",
     "static/js/24.320c534f.chunk.js.map": "/tanishq/static/js/24.320c534f.chunk.js.map",
@@ -145,7 +145,7 @@
     "static/media/slytherinPride.png": "/tanishq/static/media/slytherinPride.a61cfd96.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a5eb9d39.js",
+    "static/js/runtime-main.01fae438.js",
     "static/js/10.ea342332.chunk.js",
     "static/css/main.7d19e150.chunk.css",
     "static/js/main.97d4d7e5.chunk.js"
