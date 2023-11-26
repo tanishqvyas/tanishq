@@ -3,7 +3,7 @@ export const projectsList = [
     projectName: "TRoN",
     cardBgColor: "#b31f26",
     projectStartDate: "19 May, 2021",
-    isOngoing: true,
+    isOngoing: false,
     paraList: [
       "Working in a team of 3 on a research based project in order to build a deep learning model that could add human-like naturalness to an otherwise robotic voice. The project, currently, is not open sourced.",
       "The aim is to not only be able to generate a realistic human voice sample for a given text prompt but also control the generation using certain voice specific factors such as age and gender.",

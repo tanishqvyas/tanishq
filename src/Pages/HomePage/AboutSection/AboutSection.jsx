@@ -24,7 +24,7 @@ const AboutSection = () => {
       <p
         className={`${globalSectionStyles.para_light} ${globalSectionStyles.para}`}
       >
-        I am currently pursuing my Btech degree at{" "}
+        I am a graduate with a Btech degree from{" "}
         <a
           className={globalLinkStyles.link}
           href="https://pes.edu/"
@@ -33,7 +33,7 @@ const AboutSection = () => {
         >
           PES University
         </a>{" "}
-        Bengaluru in Computer Science and Engineering. Currently, I am interning
+        Bengaluru in Computer Science and Engineering. Currently, I am working
         at{" "}
         <a
           className={globalLinkStyles.link}
@@ -43,32 +43,21 @@ const AboutSection = () => {
         >
           Walmart Labs
         </a>{" "}
-        Bengaluru for the summer of 2021.
+        Bengaluru as a Software Engineer.
       </p>
       <p
         className={`${globalSectionStyles.para_light} ${globalSectionStyles.para}`}
       >
-        Out of all, games, were the one which interested me the most. That was
-        one of the main reasons I started to learn programming. The moment I
-        built my{" "}
+        I love to write poems. I have recently published my first book, an anthalogy named&nbsp;
         <a
           className={globalLinkStyles.link}
-          href="https://tanishqvyas069.itch.io/slime-volley-copied"
+          href="https://www.amazon.in/Poetry-book-Clustered-Heart-Tanishq/dp/8119266587"
           rel="noreferrer noopener"
           target="_blank"
         >
-          first game
+          Clustered Hearts
         </a>
-        , I was thrilled. Since then, there has been no stopping. I have
-        continuously explored various technologies out there and how are they
-        used to build different things.
-      </p>
-      <p
-        className={`${globalSectionStyles.para_light} ${globalSectionStyles.para}`}
-      >
-        I am a conscientious and enthusiastic student seeking a platform to
-        learn a great deal about different technical domains, and an opportunity
-        to interact with peers interested in the same.
+        , a collection of 101 Limericks.
       </p>
     </section>
   );
