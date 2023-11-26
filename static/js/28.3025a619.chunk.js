@@ -1,2 +1,0 @@
-(this.webpackJsonptanishq=this.webpackJsonptanishq||[]).push([[28],{414:function(n,s,t){"use strict";t.r(s);t(1);var i=t(415),a=t.n(i),c=t(2);s.default=function(){return Object(c.jsx)("section",{className:a.a.container,children:"skill hai ye"})}},415:function(n,s,t){}}]);
-//# sourceMappingURL=28.3025a619.chunk.js.map

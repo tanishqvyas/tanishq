@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/Pages/SortingPage/SortingSongSection/SortingSongSection.module.css"],"names":[],"mappings":"AAEA,6CACI,yBAA0B,CAC1B,eACJ","file":"30.abbe26e5.chunk.css","sourcesContent":["\n\n#sorting_hat_image {\n    color: var(--primary-grey);\n    font-size: 128px;\n}"]}

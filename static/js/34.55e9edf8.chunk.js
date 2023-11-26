@@ -1,0 +1,2 @@
+(this.webpackJsonptanishq=this.webpackJsonptanishq||[]).push([[34],{394:function(t,n,a){"use strict";a.d(n,"a",(function(){return s}));var i=a(0);function s(t){return Object(i.a)({tag:"svg",attr:{viewBox:"0 0 8 16"},child:[{tag:"path",attr:{fillRule:"evenodd",d:"M0 8c0-2.2 1.8-4 4-4s4 1.8 4 4-1.8 4-4 4-4-1.8-4-4z"}}]})(t)}}}]);
+//# sourceMappingURL=34.55e9edf8.chunk.js.map

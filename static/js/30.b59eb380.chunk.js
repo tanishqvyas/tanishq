@@ -1,0 +1,2 @@
+(this.webpackJsonptanishq=this.webpackJsonptanishq||[]).push([[30],{402:function(t,i,n){"use strict";n.r(i);n(1);var s=n(403),a=n.n(s),e=n(64),o=n(2);i.default=()=>Object(o.jsx)("section",{children:Object(o.jsx)(e.a,{id:a.a.sorting_hat_image})})},403:function(t,i,n){t.exports={sorting_hat_image:"SortingSongSection_sorting_hat_image__263r4"}}}]);
+//# sourceMappingURL=30.b59eb380.chunk.js.map
